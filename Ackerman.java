@@ -9,10 +9,10 @@ public class VistaSolPoniente {
     /**
      * Método recursivo para contar los edificios con vista al sol poniente.
      *
-     * @param alturas            Array de alturas de los edificios.
-     * @param indice             Índice actual en el array (comenzando desde el oeste).
-     * @param maxAlturaIzquierda Altura máxima encontrada a la izquierda del edificio actual.
-     * @return Número de edificios con vista al sol poniente desde el índice actual.
+     * alturas            Array de alturas de los edificios.
+     * indice             Índice actual en el array (comenzando desde el oeste).
+     * @maxAlturaIzquierda Altura máxima encontrada a la izquierda del edificio actual.
+     * Número de edificios con vista al sol poniente desde el índice actual.
      */
     public static int contarEdificiosConVista(int[] alturas, int indice, int maxAlturaIzquierda) {
         // Caso base: si hemos recorrido todo el array (llegamos al este)
